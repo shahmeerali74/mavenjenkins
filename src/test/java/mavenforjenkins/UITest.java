@@ -34,7 +34,7 @@ public class UITest
 			 driver=new EdgeDriver();
 		}
 		driver.manage().window().maximize();
-		driver.get("https://opensource-demo.orangehrmlive.com/");
+		driver.get("https://app.mnhomelabs.com/");
 		Assert.assertTrue(driver.getTitle().contains("Orange"), "Title does not match");
 		driver.quit();
 	}
